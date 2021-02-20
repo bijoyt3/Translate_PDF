@@ -13,6 +13,7 @@ You can do this by going to the Cloud Console > IAM & Admin > Service Account. F
 client = translate.TranslationServiceClient.from_service_account_json('credentials.json')
 ```
 
+### Tip #2
 You'll also need your Project ID handy - you can find this on the home page of Cloud Console under the Project Info tile. It is used as a parameter for the client functions, for example:
 ```
 parent = f"projects/{project_id}/locations/{location}"
@@ -24,7 +25,7 @@ response = client.detect_language(
     )
 ```
 
-### Tip #2
+### Tip #3
 
 This approach DOES cost money! Fortunately, it is free up to 500k characters but be wary of the character limits (https://cloud.google.com/translate/pricing). A free alternative is GoogleTrans (https://pypi.org/project/googletrans/). It has the same functionality as the Google Cloud Translate API but you don't need to worry about credentials or costs. It may have its limitations relative to the Google Cloud Translate API so user beware but it's an option. 
 
