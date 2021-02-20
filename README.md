@@ -1,5 +1,5 @@
 # Translate_PDF
-This script takes a PDF input, extracts the text, detects the language, translates it to English, and prints it to a text file.
+This script takes a PDF input, extracts the text, detects the language, translates it to English, and prints the output to a text file.
 
 ## Libraries
 I used Apache Tika (https://tika.apache.org/1.8/) to parse the PDF file and extract data and the Google Cloud Translate API (https://cloud.google.com/translate/) to perform the translation. 
