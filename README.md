@@ -32,3 +32,7 @@ This approach DOES cost money! Fortunately, it is free up to 500k characters but
 ## Acknowledgements
 
 Adapted many lines of code from the Google Translate API Quickstart page - https://cloud.google.com/translate/docs/advanced/quickstart
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
