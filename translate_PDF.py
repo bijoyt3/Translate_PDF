@@ -56,8 +56,8 @@ def detect_lang_adv(text):
     )
     
     for language in response.languages:
-        return ("Input: {}".format(text), "Language Code: {}".format(language.language_code), 
-        "Language: {}".format(get_display_name(language.language_code)), 
+        return ("Input: {}".format(text), "Language: {}".format(get_display_name(language.language_code)),
+        "Language Code: {}".format(language.language_code), 
         "Confidence: {}".format(language.confidence))
     
     
