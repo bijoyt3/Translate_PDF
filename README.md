@@ -1,7 +1,7 @@
 # Translate_PDF
 This script takes a PDF input, extracts the text, detects the language, translates it to English, and prints the output to a text file.
 
-## Example Output
+## Example Console Output
 
 ```
 Input: 汽车是用于运输的轮式车辆。 汽车的大多数定义都说，汽车主要在道路上行驶，可容纳1至8人，有四个轮子，主要用于载人而不是货物。 
