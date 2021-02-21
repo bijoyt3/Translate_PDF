@@ -5,8 +5,8 @@ This script takes a PDF input, extracts the text, detects the language, translat
 
 ```
 Input: 汽车是用于运输的轮式车辆。 汽车的大多数定义都说，汽车主要在道路上行驶，可容纳1至8人，有四个轮子，主要用于载人而不是货物。 
-Language code: zh-CN
-Display Name: Chinese (Simplified)
+Language Code: zh-CN
+Language: Chinese (Simplified)
 Confidence: 1.0
 
 
