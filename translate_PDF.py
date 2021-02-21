@@ -43,7 +43,7 @@ def detect_lang_basic(text):
         return language.language_code
 
 
-### Detects language from text input (advanced); Returns the original input, the language code, the display name, and confidence value from 0.0 to 1.0
+### Detects language from text input (advanced); Returns the original input, the language, the Google language code, and confidence value from 0.0 to 1.0
 def detect_lang_adv(text):
     client = translate.TranslationServiceClient.from_service_account_json('credentials.json')
     location = 'global'
