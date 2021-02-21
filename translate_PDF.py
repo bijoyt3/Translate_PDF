@@ -83,7 +83,7 @@ def translate_lang(text):
 
 ### Credentials
 project_id = ['PROJECT ID']
-filepath = "translate_test.pdf"
+filepath = ['FILEPATH']
 
 ### Import PDF File
 text = parser.from_file(filepath)
