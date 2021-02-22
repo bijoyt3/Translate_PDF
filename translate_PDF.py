@@ -3,7 +3,7 @@
 """
 Created on Fri Feb 19 09:50:56 2021
 
-@author: bijoythomas
+@author: bijoy
 
 @description: This script receives a PDF input specified by the user, extracts the text, detects the language, 
 translates the input to English, and finally outputs the value to a text file.
@@ -74,7 +74,6 @@ def detect_lang_adv(text):
                 "Language: {}".format(get_display_name(language.language_code)),
                 "Language Code: {}".format(language.language_code), 
                 "Confidence: {}".format(language.confidence))
-    
     
 def translate_lang(text):
     '''
