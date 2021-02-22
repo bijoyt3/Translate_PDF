@@ -21,7 +21,7 @@ I used Apache Tika (https://tika.apache.org/1.8/) to parse the PDF file and extr
 
 Half of the battle during development was ensuring my credentials were being correctly read. The best way to verify your credentials with the API is to download the credentials.json file from the Google Cloud Console and place it within your Scripts folder. 
 
-You can do this by going to the Cloud Console > IAM & Admin > Service Account. From here, you want to confirm you have a Compute instance up - if not, create one. Once created, click the 3 dots on the right > Create Key > Key Type: JSON > Create. You've successfully downloaded the credentials.json file. Place it in your Scripts directory and you're golden. To call the credentials in your code, use:
+You can do this by going to the Cloud Console > IAM & Admin > Service Account. From here, you want to confirm you have a Compute instance up (service account) - if not, create one. Once created, click the 3 dots on the right > Create Key > Key Type: JSON > Create. You've successfully downloaded the credentials.json file. Place it in your Scripts directory and you're golden. To call the credentials in your code, use:
 ```
 client = translate.TranslationServiceClient.from_service_account_json('credentials.json')
 ```
