@@ -9,7 +9,6 @@ Language: Chinese (Simplified)
 Language Code: zh-CN
 Confidence: 1.0
 
-
 Output: Automobiles are wheeled vehicles used for transportation. Most definitions of a car say that the car mainly runs on the road, 
 can accommodate 1 to 8 people, has four wheels, and is mainly used for carrying people rather than goods.
 ```
