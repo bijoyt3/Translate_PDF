@@ -85,7 +85,6 @@ text = parser.from_file(filepath)
 ### Extract Text from PDF File
 txt_extract = str(text['content']).replace("\n", "")
 
-
 ### Print Results to Console
 for value in detect_lang_adv(txt_extract):
     print (value)
