@@ -16,6 +16,12 @@ can accommodate 1 to 8 people, has four wheels, and is mainly used for carrying 
 ## Libraries
 I used Apache Tika (https://tika.apache.org/1.8/) to parse the PDF file and extract data and the Google Cloud Translate API (https://cloud.google.com/translate/) to perform the translation. 
 
+```
+pip install tika
+pip install google-cloud-translate 
+```
+
+
 ### Tip #1 
 
 Half of the battle during development was ensuring my credentials were being correctly read. The best way to verify your credentials with the API is to download the credentials.json file from the Google Cloud Console and place it within your Scripts folder. 
