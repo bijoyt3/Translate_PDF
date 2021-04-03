@@ -4,13 +4,15 @@ This script takes a PDF input, extracts the text, detects the language, translat
 ## Example Console Output
 
 ```
-Input: 汽车是用于运输的轮式车辆。 汽车的大多数定义都说，汽车主要在道路上行驶，可容纳1至8人，有四个轮子，主要用于载人而不是货物。 
+Input: 汽车是用于运输的轮式车辆。 汽车的大多数定义都说，汽车主要在道路上行驶，可容纳1至8人，
+有四个轮子，主要用于载人而不是货物。 
 Language: Chinese (Simplified)
 Language Code: zh-CN
 Confidence: 1.0
 
-Output: Automobiles are wheeled vehicles used for transportation. Most definitions of a car say that the car mainly runs on the road, 
-can accommodate 1 to 8 people, has four wheels, and is mainly used for carrying people rather than goods.
+Output: Automobiles are wheeled vehicles used for transportation. Most definitions of a car 
+say that the car mainly runs on the road, can accommodate 1 to 8 people, has four wheels, 
+and is mainly used for carrying people rather than goods.
 ```
 
 ## Libraries
